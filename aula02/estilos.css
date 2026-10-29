@@ -95,4 +95,15 @@ h1
 
     background-color: #b057e4;
     color: #e7e254;
+
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exercicio7
+{
+    height: 100vh;
 }
