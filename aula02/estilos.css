@@ -107,3 +107,12 @@ h1
 {
     height: 100vh;
 }
+
+.menu
+{
+    height: 50px;
+
+    background-color: #b057e4;
+    color: #e7e254;
+    font-size: 25px;
+}
