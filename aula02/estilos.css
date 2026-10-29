@@ -115,4 +115,11 @@ h1
     background-color: #b057e4;
     color: #e7e254;
     font-size: 25px;
+
+    justify-content: space-around;
+}
+
+.opcoes
+{
+    display: flex;
 }
