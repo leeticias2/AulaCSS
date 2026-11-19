@@ -94,7 +94,8 @@ h1
     padding: 0;
 
     background-color: #b057e4;
-    color: #e7e254;
+    color: #e7e254; 
+    
 
     width: 100px;
     height: 50px;
@@ -108,18 +109,51 @@ h1
     height: 100vh;
 }
 
+.linha
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .menu
 {
-    height: 50px;
+    display: flex;
+    height: 100px;
 
-    background-color: #b057e4;
+    background-color:#c38de3;
     color: #e7e254;
     font-size: 25px;
 
     justify-content: space-around;
+    align-items: center;
+}
+
+.menu img
+{
+    height: 75px;
 }
 
 .opcoes
 {
     display: flex;
+
 }
+
+.opcoes a
+{
+    color: rgb(252, 232, 255);
+    margin-right: 5px;
+
+}
+
+.opcoes a:hover
+{
+    color: rgb(216, 216, 12);
+    text-decoration: underline;
+    text-decoration-color: #a131e1;
+    
+}
+
